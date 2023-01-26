@@ -1,49 +1,69 @@
+/* css general */
 body{
-    background-image: url("/media/fondos/web_main.png");
+    background-image: url("/media/imgs/web_main.png ");
     background-repeat: repeat;
     background-size: 40%;
     justify-content: center;
     display: flex;
     margin: 2% 5% 2% 5%;
 }
-
 #container{
     background-color:peru;
-    width: 100%;
+    text-align: center;
     height:800px;
+    width: 100%;
 }
-
 #cabecera{
     display: inline-block;
-    width: 100%;
-    text-align: center;
     vertical-align: top;
+    text-align: center;
     margin-top: -1%;
+    width: 100%;
 }
-
 #cabecera h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
-    font-family:Impact;
     font-size: 300%;
     width: 70%;
+    color: #ffb7d5;
 }
-
 #cabecera img{
-    width: 10%;
     margin-top: 2%;
+    width: 10%;
 }
 
+/* css del menu principal */
 #menu{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: -50px;
+    color: #ffb7d5;
 }
-
 .cristales{
     width: 4.2%;
     transition: all 400ms ease;
 }
 .cristales:hover{
     background-color: aliceblue;
-    border-radius: 50%;
     transform: translateY(-10px);
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
 
+/* css de los tipos de pokemon */
+.cardBox{
+    display: inline-block;
+    border-style: solid;
+    vertical-align: top;
+    width: 20%;
+    margin: 1%;
+    margin-bottom: 5%;
+    height: 550px;
+}
+.card img{
+    height: 60%;
+    margin: 5%;
+    width: 50%;
 }
