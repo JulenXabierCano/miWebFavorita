@@ -60,10 +60,14 @@ a{
     width: 20%;
     margin: 1%;
     margin-bottom: 5%;
-    height: 550px;
+    height: 650px;
+    /* background-color: gainsboro; */
+    color: white;
 }
 .card img{
     height: 60%;
     margin: 5%;
     width: 50%;
+    margin-top: -4%;
+    margin-bottom: -4%;
 }
