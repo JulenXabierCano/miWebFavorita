@@ -6,6 +6,7 @@ body{
     justify-content: center;
     display: flex;
     margin: 2% 5% 2% 5%;
+    color: black;
 }
 #container{
     background-color:peru;
@@ -25,7 +26,6 @@ body{
     display: inline-block;
     font-size: 300%;
     width: 70%;
-    color: #ffb7d5;
 }
 #cabecera img{
     margin-top: 2%;
@@ -37,7 +37,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: -50px;
-    color: #ffb7d5;
 }
 .cristales{
     width: 4.2%;
@@ -52,6 +51,12 @@ a{
     text-decoration: none;
 }
 
+#mas img{
+    width: 25%;
+    vertical-align:middle;
+    margin: 2%;
+}
+
 /* css de los tipos de pokemon */
 .cardBox{
     display: inline-block;
@@ -61,8 +66,8 @@ a{
     margin: 1%;
     margin-bottom: 5%;
     height: 650px;
-    /* background-color: gainsboro; */
-    color: white;
+    background-color: burlywood;
+    color: black;
 }
 .card img{
     height: 60%;
@@ -70,4 +75,117 @@ a{
     width: 50%;
     margin-top: -4%;
     margin-bottom: -4%;
+}
+
+@media (max-width: 1200px){
+    /* card images */
+    #cabecera img{
+        margin-top: 2%;
+        width: 14%;
+    }
+    .cardBox{
+        display: inline-block;
+        border-style: solid;
+        vertical-align: top;
+        width: 30%;
+        margin: 1%;
+        margin-bottom: 5%;
+        height: 650px;
+        background-color: burlywood;
+        color: black;
+    }
+    .card img{
+        height: 60%;
+        margin: 5%;
+        width: 50%;
+        margin-top: -4%;
+        margin-bottom: -4%;
+    }
+
+    /* pagina principal */
+    #menu{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        color: #ffb7d5;
+    }
+    .cristales{
+        width: 11.6%;
+        transition: all 400ms ease;
+    }
+    .cristales:hover{
+        background-color: aliceblue;
+        transform: translateY(-10px);
+        border-radius: 50%;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    #mas img{
+        width: 40%;
+        vertical-align:middle;
+        margin: 2%;
+    }
+}
+
+@media (max-width: 800px){
+    #container{
+        height: 100%;
+    }
+
+    #cabecera img{
+        margin-top: 2%;
+        width: 10%;
+        opacity: 0%;
+    }
+    
+    .cardBox{
+        display: inline-block;
+        border-style: solid;
+        vertical-align: top;
+        width: 70%;
+        margin: 1%;
+        margin-bottom: 5%;
+        height: 650px;
+        background-color: burlywood;
+        color: black;
+    }
+    
+    .card img{
+        height: 60%;
+        margin: 5%;
+        width: 50%;
+        margin-top: -4%;
+        margin-bottom: -4%;
+    }
+    
+    /* pagina principal */
+    #menu{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        color: #ffb7d5;
+    }
+    
+    .cristales{
+        width: 20%;
+        transition: all 400ms ease;
+    }
+    
+    .cristales:hover{
+        background-color: aliceblue;
+        transform: translateY(-10px);
+        border-radius: 50%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    #mas img{
+        width: 50%;
+        vertical-align:middle;
+        margin: 2%;
+    }
 }
