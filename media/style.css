@@ -25,6 +25,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     font-size: 300%;
+    color: white;
     width: 70%;
 }
 #cabecera img{
@@ -69,6 +70,7 @@ a{
     background-color: burlywood;
     color: black;
 }
+
 .card img{
     height: 60%;
     margin: 5%;
