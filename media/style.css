@@ -191,3 +191,13 @@ a{
         margin: 2%;
     }
 }
+
+/* eeveelutions */
+
+.content{
+    visibility: hidden;
+}
+
+#eevee:hover .content{
+    visibility: visible;
+}
