@@ -1,3 +1,8 @@
+*{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
 /* css general */
 body{
     background-image: url("/media/imgs/web_main.png ");
@@ -9,10 +14,11 @@ body{
     color: black;
 }
 #container{
-    background-color:peru;
+    background-color:burlywood;
     text-align: center;
     height:800px;
     width: 100%;
+    padding-bottom: 1%;
 }
 #cabecera{
     display: inline-block;
@@ -27,6 +33,7 @@ body{
     font-size: 300%;
     color: white;
     width: 70%;
+    vertical-align: top;
 }
 #cabecera img{
     margin-top: 2%;
@@ -40,6 +47,8 @@ body{
     margin-top: -50px;
 }
 .cristales{
+    margin-top: 1%;
+    margin-bottom: -4%;
     width: 4.2%;
     transition: all 400ms ease;
 }
@@ -56,6 +65,16 @@ a{
     width: 25%;
     vertical-align:middle;
     margin: 2%;
+}
+
+
+
+#masp{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10%;
+    font-size:larger;
 }
 
 /* css de los tipos de pokemon */
