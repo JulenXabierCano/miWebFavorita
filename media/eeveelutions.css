@@ -6,11 +6,9 @@ body{
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    margin-top: -3%;
     width: 100%;
     position: fixed;
     background-color: bisque;
-    z-index: 100;
 }
 
 #cabecera h1{
@@ -21,165 +19,13 @@ body{
     width: 70%;
 }
 
-.boxesContainer{
-    margin-top: 5%;
-    width: 60%;
-    margin: auto;
+#lutions{
+    padding-top: 5%;
 }
 
 #eevee{
-    background-image: url("/media/pkmns/eevelutions/eevee.gif");
-    background-position: left center;
-    background-repeat: no-repeat;
-    height: 800px;
-    background-size: 28%;
-}
-
-#eevee p{
+    margin: auto;
+    width: 14%;
     position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
+    left: 40%;
 }
-
-#Leafeon{
-    background-image: url("/media/pkmns/eevelutions/Leafeon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 25%;
-}
-#Leafeon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Flareon{
-    background-image: url("/media/pkmns/eevelutions/Flareon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 25%;
-}
-#Flareon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Vaporeon{
-    background-image: url("/media/pkmns/eevelutions/Vaporeon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 36%;
-}
-#Vaporeon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Umbreon{
-    background-image: url("/media/pkmns/eevelutions/Umbreon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 20%;
-}
-#Umbreon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Espeon{
-    background-image: url("/media/pkmns/eevelutions/Espeon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 28%;
-}
-#Espeon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Sylveon{
-    background-image: url("/media/pkmns/eevelutions/Sylveon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 28%;
-}
-#Sylveon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Glaceon{
-    background-image: url("/media/pkmns/eevelutions/Glaceon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 28%;
-}
-#Glaceon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-#Jolteon{
-    background-image: url("/media/pkmns/eevelutions/Jolteon.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
-    height: 800px;
-    background-size: 20%;
-}
-#Jolteon p{
-    position: relative;
-    right: -40%;
-    width: 50%;
-    top: 50%;
-}
-
-/*
-.background-image {
-The image used 
-    background-image: url("https://doritos.es/images/default-source/default-album/bbq-thumbnail.png?sfvrsn=5564c6d3_0");
-  
-Set a specific height 
-    height: 830px;
-  
-Create the parallax scrolling effect
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .background-image-2 {
-The image used 
-    background-image: url("https://doritos.es/images/default-source/productos/doritos-chilli-600x568_3d_new.png?sfvrsn=2");
-  
-Set a specific height
-    height: 1000px;
-  
-Create the parallax scrolling effect
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  */
