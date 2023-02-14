@@ -1,5 +1,7 @@
 body{
-    background-color: bisque;
+    background-image: url(/media/pkmns/eevelutions/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #cabecera{
@@ -7,25 +9,76 @@ body{
     vertical-align: top;
     text-align: center;
     width: 100%;
-    position: fixed;
-    background-color: bisque;
 }
 
 #cabecera h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
-    font-size: 300%;
-    color: black;
+    font-size: 500%;
+    color: white;
     width: 70%;
 }
 
-#lutions{
-    padding-top: 5%;
+.lutions{
+    padding-top: 8%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 5%;
 }
 
-#eevee{
-    margin: auto;
+.gif{
+    margin-right: -20%;
+}
+.PNG{
+    width: 30%;
+    float: right;
+    margin-right: 20%;
+    margin-left: 0px;
+}
+
+#eevee .gif{
+    width: 20%;
+    margin-top: -3%;
+}
+
+#vaporeon .gif{
+    width: 25%;
+    margin-top: -6%;
+}
+
+#leafeon .gif{
     width: 14%;
-    position: relative;
-    left: 40%;
+    margin-top: -4%;
+}
+
+#flareon .gif{
+    width: 14%;
+    
+    margin-top: -6%;
+}
+#umbreon .gif{
+    width: 12%;
+    margin-top: -4%;
+}
+
+#espeon .gif{
+    width: 14%;
+    margin-top: -4%;
+}
+
+#glaceon .gif{
+    width: 17%;
+    margin-top: -4%;
+}
+
+#sylveon .gif{
+    width: 14%;
+    margin-top: -4%;
+}
+
+#jolteon .gif{
+    width: 13%;
+    margin-top: -4%;
 }
